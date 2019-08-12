@@ -1,0 +1,86 @@
+p {
+    margin: 0;
+}
+
+.wrapperDataFlex {
+    border-top: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+}
+@media ( max-width: 375px) {
+    .wrapperDataFlex {
+        padding-bottom: 20px;
+    }
+}
+
+.wrapperArticle {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperPost {
+    column-count: 2;
+}
+
+p .articlePost {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+@media ( max-width: 375px) {
+    p .articlePost {
+        font-size: 16px;
+    }
+}
+
+.datePost {
+    width: 100px;
+    margin-right: 40px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+}
+@media ( max-width: 375px) {
+    .datePost {
+        max-width: 50px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.articleTitle {
+    margin: 0;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+}
+@media ( max-width: 375px) {
+    .articleTitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.dateArticlePost {
+    margin-bottom: 40px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+@media ( max-width: 375px) {
+    .dateArticlePost {
+        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+

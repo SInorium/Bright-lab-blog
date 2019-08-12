@@ -1,0 +1,55 @@
+/* _____MOBILE______ */
+
+section {
+    max-width: 230px ;
+    height: 140px;
+    background-color: white;
+    box-shadow: 0 0 3px #cccccc;
+  }
+    
+  .slider {
+    position: relative;
+    max-width: 230px ;
+    height: 140px;
+  }
+
+  .slider-slides img {
+    float: left;
+    width: 230px;
+    height: 140px;
+  }
+  
+  .slider input[type="radio"] {
+    display: none;
+  }
+  
+  .slider-inner {
+    overflow: hidden;
+  }
+  
+  .slider-slides {
+    width: 400%;
+    transition: transform 0.3s ease;
+  }
+  
+ 
+  
+  .slider-controls {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+  }
+
+  .slider-control {
+    width: 40px;
+    height: 5px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .slider-control__active {
+    background: #000;
+  }

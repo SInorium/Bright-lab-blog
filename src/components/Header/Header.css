@@ -1,0 +1,94 @@
+
+.header {
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+.logoWrapper {
+    z-index: -1;
+    width: 1100px;
+    position: relative;
+}
+@media ( max-width: 375px) {
+    .logoWrapper {
+        width: auto;
+    }
+}
+
+.b3d {
+    position: absolute;
+    width: 100%;
+    left: -40%;
+    top: -60%;
+}
+
+.min {
+    top: -30%;
+    left: -10%;
+    position: absolute;
+}
+
+.headerTitle {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
+    line-height: 190px;
+}
+@media (max-width: 375px) {
+    .headerTitle {
+        margin-top: 10px;
+
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+
+.headerLink {
+    position: absolute;
+    padding: 20px 30px;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+@media ( max-width: 375px){
+    .headerLink {
+        width: 100%;
+    }
+}
+
+.headerink > sup {
+    padding-left: 13px;
+}
+
+@media ( max-width: 375px) {
+    .flexContainer {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .b3d {
+        z-index: -1;
+        position: absolute;
+        width: 190px;
+        height: 240px;
+    }
+
+    .min {
+        width: 40px;
+        height: 25px;
+    } 
+    
+
+}
+

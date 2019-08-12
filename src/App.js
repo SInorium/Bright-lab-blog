@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import data from './utils/data';
+import { Header } from './components/Header/Header.jsx';
+import { Article } from './components/Article/Article.jsx';
+import { MediaPage } from './components/MediaPage/MediaPage.jsx';
 import './App.css';
 
-function App() {
+function App () {
+  console.log(data)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className="container">
+        <Header />
+        <Article post={data[0]} />
+        <MediaPage post={data[0]} />
+        <MediaPage post={data[0]} />
+        <Article post={data[0]} />
+      </div>
+      
+  )
 }
 
 export default App;

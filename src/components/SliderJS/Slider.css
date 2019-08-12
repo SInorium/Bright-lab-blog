@@ -1,0 +1,26 @@
+.SliderImg {
+	width: 1000px;
+	height: 600px;
+}
+
+.SliderBtn {
+	width: 180px;
+	height: 10px;
+	margin-bottom: 40px;
+}
+
+label {
+	display: inline-block;
+	border: 1px solid black;
+	width: 40px;
+    height: 4px;
+}
+
+input {
+	display: none; 
+}
+
+input:checked + label {
+	background: black;
+}
+
