@@ -4,37 +4,32 @@
     flex-wrap: nowrap;
     border-top: 2px solid black;
 
-    margin-left: 90px;
-    padding-top: 20px;
-    
-    
+    margin-left: 180px;
+    padding-top: 45px;   
+}
+@media ( min-width: 375px) and (max-width: 768px) {
+    .containerArticleMedia {
+        margin-left: 90px;
+        padding-top: 20px;
+    }
 }
 
 .wrapperPostMedia {
-    margin-top: 35px;
-    margin-bottom: 20px;
-
+    margin-bottom: 60px;
+    min-width: 230px;
 }
-
+@media ( min-width: 375px) and (max-width: 768px) {
+    .wrapperPostMedia {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+}
 
 
 
 
 /* _____MOBILE______ */
-@media ( max-width: 1200px) {
-    .containerArticleMedia  {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        border-top: 2px solid black;
-
-        /* margin-top: 35px; */
-        margin-left: 90px;
-
-        padding-top: 20px;
-        
-        
-    }
+@media ( min-width: 375px) and (max-width: 768px) {
 
     .wrapperPostMedia {
         margin-top: 35px;

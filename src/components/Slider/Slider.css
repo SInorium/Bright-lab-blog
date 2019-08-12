@@ -1,24 +1,42 @@
 /* _____MOBILE______ */
 
-section {
-    max-width: 230px ;
-    height: 140px;
+.containerSlider section {
+    max-width: 1010px ;
+    margin-bottom: 20px;
     background-color: white;
     box-shadow: 0 0 3px #cccccc;
   }
+
+  @media ( min-width: 375px) and (max-width: 768px) {
+    section {
+      min-width: 230px;
+
+    }
+  }
     
   .slider {
-    position: relative;
-    max-width: 230px ;
-    height: 140px;
+    max-width: 1010px ;
+    margin-bottom: 35px;
+  }
+  @media ( min-width: 375px) and (max-width: 768px) {
+    .slider {
+      min-width: 230px;
+      
+    }
   }
 
   .slider-slides img {
     float: left;
-    width: 230px;
-    height: 140px;
+    width: 1010px;
+    height: 550px;
   }
-  
+  @media ( min-width: 375px) and (max-width: 768px) {
+    .slider-slides img {
+      width: 230px;
+      height: 140px;
+    }
+  }
+
   .slider input[type="radio"] {
     display: none;
   }
@@ -31,8 +49,6 @@ section {
     width: 400%;
     transition: transform 0.3s ease;
   }
-  
- 
   
   .slider-controls {
       margin-top: 20px;

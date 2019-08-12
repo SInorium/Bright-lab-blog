@@ -10,14 +10,13 @@ export function MediaPage({ post }) {
             </h3>
             <span className="dateArticlePost">
                 { post.time }
-            </span>
-            <Slider post={post} className="sliderMedia" />      
+            </span>   
             <div className="wrapperPostMedia">
                 <p className="ariclePostMedia">
                     { post.content.map(page => page) }
                 </p>
             </div>
-               
+            <Slider post={post} className="sliderMedia" />      
         </div>
     )
 }
