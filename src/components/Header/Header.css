@@ -4,13 +4,13 @@
     margin-top: 120px;
     margin-bottom: 150px;
 }
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .header {
         margin: 0;
     }
 }
 
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .logoWrapper {
         width: auto;
     }
@@ -25,7 +25,7 @@
 }
 
 .min {
-    overflow: hidden;
+    
     top: -1%;
     left: 50%;
     position: absolute;
@@ -39,7 +39,7 @@
     font-size: 200px;
     line-height: 190px;
 }
-@media (min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .headerTitle {
         margin-top: 55px;
         margin-bottom: 10px;
@@ -65,7 +65,7 @@
     font-size: 20px;
     line-height: 24px;
 }
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .headerLink {
         width: 100%;
         top: 25px;
@@ -77,7 +77,7 @@
     padding-left: 13px;
 }
 
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .flexContainer {
         display: inline-flex;
         flex-wrap: wrap;

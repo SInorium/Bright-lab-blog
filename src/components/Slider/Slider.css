@@ -1,27 +1,33 @@
 /* _____MOBILE______ */
 
 .containerSlider section {
-    max-width: 1010px ;
     margin-bottom: 20px;
     background-color: white;
     box-shadow: 0 0 3px #cccccc;
   }
 
-  @media ( min-width: 375px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     section {
       min-width: 230px;
-
+    }
+  }
+  @media (min-width: 770px) and (max-width: 1300px){
+    section {
+      min-width: 900px;
     }
   }
     
   .slider {
-    max-width: 1010px ;
     margin-bottom: 35px;
   }
-  @media ( min-width: 375px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     .slider {
-      min-width: 230px;
-      
+      min-width: 230px; 
+    }
+  }
+  @media (min-width: 770px) and (max-width: 1300px){
+    .slider {
+      min-width: 900px;
     }
   }
 
@@ -30,10 +36,16 @@
     width: 1010px;
     height: 550px;
   }
-  @media ( min-width: 375px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     .slider-slides img {
       width: 230px;
       height: 140px;
+    }
+  }
+  @media (min-width: 770px) and (max-width: 1300px){
+    .slider-slides img {
+      width: 900px;
+      height: 500px;
     }
   }
 

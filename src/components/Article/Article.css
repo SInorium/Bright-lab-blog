@@ -8,7 +8,7 @@ p {
     padding-bottom: 50px;
     display: flex;
 }
-@media ( min-width: 375px) and (max-width: 768px){
+@media (max-width: 768px){
     .wrapperDataFlex {
         padding-bottom: 20px;
     }
@@ -30,7 +30,7 @@ p .articlePost {
     font-size: 20px;
     line-height: 24px;
 }
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     p .articlePost {
         font-size: 16px;
     }
@@ -45,7 +45,7 @@ p .articlePost {
     font-size: 34px;
     line-height: 40px;
 }
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .datePost {
         margin-right: 40px;
         max-width: 50px;
@@ -62,7 +62,7 @@ p .articlePost {
     font-size: 34px;
     line-height: 40px;
 }
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .articleTitle {
         font-size: 16px;
         line-height: 20px;
@@ -77,7 +77,7 @@ p .articlePost {
     font-size: 20px;
     line-height: 24px;
 }
-@media ( min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .dateArticlePost {
         margin-bottom: 10px;
         font-size: 13px;
