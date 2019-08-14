@@ -1,4 +1,14 @@
-/* _____MOBILE______ */
+button {
+  outline: none;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+button:active {
+  outline: 2px solid rgb(193, 192, 192);
+}
 
 .containerSlider section {
     margin-bottom: 20px;

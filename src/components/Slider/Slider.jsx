@@ -24,14 +24,14 @@ class Slider extends Component {
               <img src={post.slides[currentSlide]} alt="" />
             </div>
           </div>
-          <div className="slider-controls">
+          <button className="slider-controls">
             {
               post.slides.map((_, key) => {
                 let isActive = key === currentSlide
                 let activeClass = 'slider-control__active'
 
                 return (
-                  <div
+                  <button
                     key={key}
                     className={`slider-control ${isActive && activeClass}`}
                     onClick={() => this.handleChangeSlide(key)}
@@ -39,7 +39,7 @@ class Slider extends Component {
                 )
               })
             }
-          </div>
+          </button>
         </div>
       </section>
     )

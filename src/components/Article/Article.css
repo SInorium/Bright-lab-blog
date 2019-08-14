@@ -22,6 +22,11 @@ p {
 .wrapperPost {
     column-count: 2;
 }
+@media (max-width: 768px) {
+    .wrapperPost {
+        column-count: 1;
+    }
+}
 
 p .articlePost {
     font-family: Helvetica Neue;
