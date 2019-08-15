@@ -3,7 +3,7 @@ import './Article.css';
 
 export function Article({ post }) {
     return (
-    <div className="wrapperDataFlex">
+    <article className="wrapperDataFlex">
       <span className="datePost">March 2018</span>
         <div className="wrapperArticle">
           <h3 className="articleTitle">
@@ -21,7 +21,7 @@ export function Article({ post }) {
                 </p>
               </div>
         </div>
-    </div>
+    </article>
 
     )
 }

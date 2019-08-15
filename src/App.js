@@ -6,7 +6,6 @@ import { MediaPage } from './components/MediaPage/MediaPage.jsx';
 import './App.css';
 
 function App () {
-  console.log(data)
   return (
       <div className="container">
         <Header />

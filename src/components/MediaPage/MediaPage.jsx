@@ -4,7 +4,7 @@ import Slider from '../Slider/Slider'
 
 export function MediaPage({ post }) {
     return (
-        <div className="containerArticleMedia">
+        <article className="containerArticleMedia">
             <h3 className="articleTitle">
                 { post.title }
             </h3>
@@ -17,6 +17,6 @@ export function MediaPage({ post }) {
                 </p>
             </div>
             <Slider post={post} className="sliderMedia" />      
-        </div>
+        </article>
     )
 }
