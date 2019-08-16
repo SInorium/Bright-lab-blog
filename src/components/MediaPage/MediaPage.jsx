@@ -2,7 +2,7 @@ import React from 'react';
 import './MediaPage.css';
 import Slider from '../Slider/Slider'
 
-export function MediaPage({ post }) {
+function MediaPage({ post }) {
     return (
         <article className="containerArticleMedia">
             <h3 className="articleTitle">
@@ -10,6 +10,7 @@ export function MediaPage({ post }) {
             </h3>
             <span className="dateArticlePost">
                 { post.time }
+                { post.month }
             </span>   
             <div className="wrapperPostMedia">
                 <p className="ariclePostMedia">
@@ -20,3 +21,6 @@ export function MediaPage({ post }) {
         </article>
     )
 }
+
+export default MediaPage
+

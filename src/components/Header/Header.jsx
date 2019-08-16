@@ -1,6 +1,5 @@
 import React from 'react';
 import { Logo } from '../Logo';
-
 import './Header.css'
 
 import b3d from '../Logo/img/b3d.svg'
