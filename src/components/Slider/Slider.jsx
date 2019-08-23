@@ -1,49 +1,47 @@
-import React, { Component } from 'react';
-import './Slider.css';
+import React, { Component } from "react";
+import "./Slider.css";
 
 class Slider extends Component {
   state = {
     currentSlide: 0
-  }
+  };
 
-  handleChangeSlide = (slide) => {
+  handleChangeSlide = slide => {
     this.setState({
       currentSlide: slide
-    })
-  }
-  
+    });
+  };
+
   render() {
-    const { post } = this.props
-    const { currentSlide } = this.state
+    const { images } = this.props;
+    const { currentSlide } = this.state;
 
     return (
-      <section className="containerSlider"> 
+      <section className="containerSlider">
         <div className="slider">
           <div className="slider-inner">
             <div className="slider-slides">
-              <img src={post.slides[currentSlide]} alt="" />
+              <img src={images[currentSlide]} alt="" />
             </div>
           </div>
           <div className="slider-controls">
-            {
-              post.slides.map((_, key) => {
-                let isActive = key === currentSlide
-                let activeClass = 'slider-control__active'
+            {images.map((_, key) => {
+              let isActive = key === currentSlide;
+              let activeClass = "slider-control__active";
 
-                return (
-                  <div
-                    key={key}
-                    className={`slider-control ${isActive && activeClass}`}
-                    onClick={() => this.handleChangeSlide(key)}
-                  />
-                )
-              })
-            }
+              return (
+                <div
+                  key={key}
+                  className={`slider-control ${isActive && activeClass}`}
+                  onClick={() => this.handleChangeSlide(key)}
+                />
+              );
+            })}
           </div>
         </div>
       </section>
-    )
+    );
   }
 }
 
-export default Slider
+export default Slider;

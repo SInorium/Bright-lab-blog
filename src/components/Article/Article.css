@@ -2,7 +2,7 @@ p {
     margin: 0;
 }
 
-.wrapperDataFlex {
+.wrapperDataFlex:not(article)  {
     border-top: 2px solid black;
     padding-top: 20px;
     padding-bottom: 50px;
