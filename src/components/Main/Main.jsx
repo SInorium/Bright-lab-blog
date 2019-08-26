@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Main.css";
 import data from "../../utils/data";
 import Article from "../Article/Article";
 import DateArticle from "../DateArcticle/DateArticle";

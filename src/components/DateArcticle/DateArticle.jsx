@@ -1,6 +1,4 @@
 import React from 'react';
-import './DateArticle.css';
-
 
 export default function DateArticle({month, year}) {
     return (

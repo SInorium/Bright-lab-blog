@@ -46,18 +46,19 @@ button:active {
     width: 1010px;
     height: 550px;
   }
-  @media (max-width: 768px) {
-    .slider-slides img {
-      width: 230px;
-      height: 140px;
-    }
-  }
   @media (min-width: 770px) and (max-width: 1300px){
     .slider-slides img {
       width: 900px;
       height: 500px;
     }
   }
+  @media (max-width: 768px) {
+    .slider-slides img {
+      width: 230px;
+      height: 140px;
+    }
+  }
+  
 
   .slider input[type="radio"] {
     display: none;

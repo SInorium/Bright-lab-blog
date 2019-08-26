@@ -6,7 +6,7 @@ import './App.css';
 
 const App = () => {
   return(
-    <div className="container" onClick={() => this.handleChangeState(7)}>
+    <div className="container">
         <Header />
         <Main />
       </div>
