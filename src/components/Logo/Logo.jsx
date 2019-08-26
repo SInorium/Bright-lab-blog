@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Header/Header.css';
 
-const Logo = ({ src, classname }) => {
+const Logo = ({ src, className }) => {
     return (
-        <img className={ classname }
+        <img className={ className }
             src={ src }
-                alt = "BrightLabLogo"
+            alt = "BrightLabLogo"
         />
     )
 }

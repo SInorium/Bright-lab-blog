@@ -1,32 +1,25 @@
-import React from 'react';
-import './Article.css';
+import React from "react";
+import "./Article.css";
+import Slider from "../Slider/Slider";
 
-export default function Article({ post }) {
-    return (
+export default function Article({ ...item }) {
+  return (
     <article className="wrapperDataFlex">
-      <span className="datePost"> 
-      { post.month }
-      <br/> 
-      { post.year }
-      </span>
-        <div className="wrapperArticle">
-          <h3 className="articleTitle">
-            { post.title }
-          </h3>
-            <span className="dateArticlePost">
-              { post.time }
-              { post.month }
-            </span>
-              <div className="wrapperPost">
-                <p className="ariclePost">
-                  { post.content }
-                </p>
-                <p className="ariclePost">
-                  { post.content }
-                </p>
-              </div>
+      <div className="wrapperArticle">
+        <h3 className="articleTitle">{item.title}</h3>
+        <span className="dateArticlePost">
+          {item.day}
+          {item.month}
+        </span>
+        <div className="wrapperPost">
+          <p className="articlePost">{item.content}</p>
         </div>
+      </div>
+      {
+        item.images.length > 0 ? (
+        <Slider images={item.images} className="sliderMedia" />
+      ) : null
+      }
     </article>
-
-    )
+  );
 }
